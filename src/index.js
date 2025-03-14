@@ -12,7 +12,7 @@ app.use(cors());
 const port = 6666;
 
 const url =
-  "mongodb+srv://batmunkhxo:80664525Bn$@cluster0.veh63.mongodb.net/Users?retryWrites=true&w=majority&appName=Cluster0";
+  "mongodb+srv://mongodb+srv://batmunkhxo:<Spider705-@batmunkhxo.90ys8.mongodb.net/?retryWrites=true&w=majority&appName=batmunkhxo";
 const connectDb = async () => {
   try {
     await mongoose.connect(url);
@@ -32,4 +32,3 @@ app.use("/food", foodRouter);
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`);
 });
-
