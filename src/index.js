@@ -10,9 +10,10 @@ const app = express();
 app.use(express.json());
 app.use(cors());
 const port = 6666;
+// jGRkOxOhFNHFka62
 
 const url =
-  "mongodb+srv://mongodb+srv://batmunkhxo:<Spider705-@batmunkhxo.90ys8.mongodb.net/?retryWrites=true&w=majority&appName=batmunkhxo";
+  "mongodb+srv://batmunkhxo:jGRkOxOhFNHFka62@batmunkhxo.90ys8.mongodb.net/?retryWrites=true&w=majority&appName=batmunkhxo";
 const connectDb = async () => {
   try {
     await mongoose.connect(url);

@@ -1,7 +1,8 @@
 import { Users } from "../../models/users.model.js";
+import mongoose from "mongoose";
 
 const getUsers = async (req,res) => {
-    trt{
+    try{
         const userData = await Users.find({})
         res.send(userData).status(200)
     } catch(error){
